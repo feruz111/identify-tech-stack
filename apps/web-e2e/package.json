@@ -1,0 +1,10 @@
+{
+  "name": "@identify-tech-stack/web-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@identify-tech-stack/web"
+    ]
+  }
+}
