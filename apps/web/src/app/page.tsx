@@ -12,7 +12,7 @@ export default function Index() {
     const interval = setInterval(() => {
       console.log('tick');
     }, 1000);
-    // Missing cleanup: return () => clearInterval(interval);
+    return () => clearInterval(interval);
   }, []);
 
   // Bug 2: Missing dependency in useEffect
